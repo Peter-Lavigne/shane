@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portrait {
+  flex-basis: 60%;
+}
+
+.dialogue-box-outer {
+  border-width: 2px;
+  border-color: #903000;
+  border-style: solid;
+  background-color: #c25702;
+  flex-basis: 100%
+}
+
+.dialogue-box-inner {
+  border-width: 2px;
+  border-color: #c87c3f;
+  border-style: solid;
+  background: rgb(223, 147, 71);
+  background: linear-gradient(0deg, rgba(223, 147, 71, 1) 0%, rgba(229, 175, 86, 1) 50%, rgba(223, 147, 71, 1) 100%);
+  margin: 2px;
+  padding: 10px;
+}
+
+.dialogue {
+  width: 100%;
+  border: 1px solid transparent;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  text-align: left;
+  font-size: larger;
+
+  background-color: transparent;
+}
+
+.shane-dialogue {
+  text-align: center;
+  width: calc(100% - 40px);
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #c87c3f;
+}
+
+.custom-input {
+  width: calc(100% - 40px);
+  border: 1px solid transparent;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  text-align: left;
+  font-size: larger;
+
+  background-color: transparent;
+}
+
+.reset {
+  font-size: medium;
+  text-align: center;
+}
