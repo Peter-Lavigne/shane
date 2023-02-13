@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url('<<<Add a background image. I was using a local version of https: //wallpaperaccess.com/full/1547803.jpg for development>>>');
+  background-image: url(https://wallpaperaccess.com/full/1547803.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
